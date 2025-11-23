@@ -37,8 +37,13 @@ p, li {
     text-decoration: underline;
 }
 
-.moods img {
-    border-radius: 12px;
-    margin-right: 20px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+.moods {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.mood-item {
+    text-align: center;
 }
